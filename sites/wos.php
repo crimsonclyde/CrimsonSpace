@@ -28,10 +28,10 @@
     </a>
 
     <!-- CrimsonCam -->
-    <a href="<?php echo $site ?>/?s=cam">
+    <a href="<?php echo $site ?>/mumble-django/mumble/1">
 	<div class="btn-bg">
 	    <div id="btn-img-4">
-		<div class="btn-txt">CrimsonCam</div>
+		<div class="btn-txt">CrimsonVoice</div>
 	    </div>
 	</div>
     </a>

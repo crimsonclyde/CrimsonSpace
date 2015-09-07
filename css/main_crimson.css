@@ -1,0 +1,395 @@
+/*
+_________        .__
+\_   ___ \_______|__| _____   __________   ____
+/    \  \/\_  __ \  |/     \ /  ___/  _ \ /    \
+\     \____|  | \/  |  | |  \\___ (  <_> )   |  \
+ \______  /|__|  |__|__|_|  /____  >____/|___|  /
+        \/                \/     \/           \/
+
+
+Theme Name: Crimson CI Theme
+Theme URI:  http://crimson.space/
+Author:     CrimsonClyde
+
+Description: 
+Basic CrimsonWeb desktop browser stylesheet
+*/
+
+/* Global */
+body {
+    background: #000;
+    font-family: Courier;
+    color: #ccc;
+    font-size: 12px;
+}
+
+body,td,th {
+	color: #ccc;
+}
+
+
+
+a, a:link {
+	padding: 1px;
+	color: red;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: grey;
+	text-decoration: none;
+}
+
+
+a img {
+	border: none;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+img{
+    border: none;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#center {
+    text-align: center;
+}
+
+
+#dp-frame {
+    max-width: 650px; 
+    min-width: 500px;
+    background:#000;
+    border-radius: 50px 50px 50px 50px;
+    -moz-border-radius: 50px 50px 50px 50px;
+    -webkit-border-radius: 50px 50px 50px 50px;
+    border: 6px double #333;
+    margin: 20px auto 0px auto;
+    -webkit-box-shadow: 0px 0px 5px 5px #333;
+    box-shadow: 0px 0px 5px 5px #333;
+}
+
+#dp-ascii1{
+    text-align: center;
+    white-space: pre-wrap;       /* css-3 */
+    white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+    white-space: -pre-wrap;      /* Opera 4-6 */
+    white-space: -o-pre-wrap;    /* Opera 7 */
+    word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+
+#dp-ascii2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+
+
+
+/* Buttons (CSS based) */
+#btn-container {
+    text-align: center;
+    max-width: 415px;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-box;
+}
+
+
+
+.btn-bg {
+    float: left;
+    margin: 1em;
+    width: 110px;
+    height: 110px;
+
+    border-radius: 15px;
+    
+    background: rgb(56,56,56); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(56,56,56,1) 0%, rgba(22,22,22,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(56,56,56,1)), color-stop(100%,rgba(22,22,22,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(56,56,56,1) 0%,rgba(22,22,22,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(56,56,56,1) 0%,rgba(22,22,22,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(56,56,56,1) 0%,rgba(22,22,22,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(56,56,56,1) 0%,rgba(22,22,22,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#161616',GradientType=0 ); /* IE6-9 */
+
+    /*Transition*/
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+}
+
+
+.btn-bg:hover {
+    background: #600;
+}
+
+
+
+#btn-img-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsonclyde-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+#btn-img-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsonmail-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#btn-img-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsoncloud-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+#btn-img-4 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsoncam-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+#btn-img-5 {
+    height: 100%;
+    width: 100%; 
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsonuniverse-icon.png);
+    background-repeat: no-repeat; 
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+#btn-img-6 {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://crimson.space/CrimsonSpace/img/crimsonhome-icon.png);
+    background-repeat: no-repeat;
+    background-position: center 15px;
+    zoom: 1;
+    filter: alpha(opacity=50);
+    opacity: 0.5;
+}
+
+
+
+.btn-txt {
+    height: 30%;
+    width: 100%;
+    padding-top: 85px;
+    font-family: Courier;
+    color: #ccc;
+    font-size: 10px;
+}
+
+
+/* Footer */
+#wos-footer {
+    clear: both;
+    padding: 10px;
+    text-align: center;
+    color: #666;
+    font-size: 0.8em;
+    padding-top: 30px;
+}
+
+
+/* CrimsonCtrl*/
+table.tftable {font-size:12px;width:80%;text-align:center;margin-left:auto;margin-right:auto;border-width: 0px;border-collapse: collapse;}
+table.tftable td {font-size:12px;border-width: 0px;padding: 8px;}
+
+#connection2 {
+    background: white;
+    color: black;
+    height: 60px;
+    width: 100%;
+}
+
+div.cursor {
+display: inline-block;
+background: #111;
+height: 10px;
+
+-webkit-animation: blink 1s linear 0s infinite;
+-moz-animation: blink 1s linear 0s infinite;
+-ms-animation: blink 1s linear 0s infinite;
+-o-animation: blink 1s linear 0s infinite;
+}
+@-webkit-keyframes blink {
+0% { background: #FFF }
+50% { background: #000 }
+100% { background: #000 }
+}
+
+@-moz-keyframes blink {
+0% { background: #FFF }
+50% { background: #000 }
+100% { background: #000 }
+}
+
+@-ms-keyframes blink {
+0% { background: #FFF }
+50% { background: #000 }
+100% { background: #000 }
+}
+
+@-o-keyframes blink {
+0% { background: #FFF }
+50% { background: #000 }
+100% { background: #000 }
+}
+
+
+#SCL1,#SCL0,#pwd-button { /*basic styles*/
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    font-size: 15px;
+    line-height: 50px;
+
+    /*gradient styles*/
+    background:
+    -webkit-gradient(linear, left top, left bottom, color-stop(0, #2f2f2f),
+    color-stop(.5, #1e1f1f),
+    color-stop(.51, #0c0c0c),
+    to(#000));
+    background: -moz-linear-gradient(top, #2f2f2f, #1e1f1f 50%, #0c0c0c 51%, #000);
+
+    /*border styles*/
+    border-top: solid 2px #555;
+    border-bottom: solid 2px #111;
+    -moz-box-shadow:inset 0 0 15px #000000;
+    -webkit-box-shadow:inset 0 0 15px #000000;
+    box-shadow:inset 0 0 15px #000000; }
+
+#SCL1 p,#SCL0 p {
+    font-size: 15px;
+    line-height: 70px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    text-shadow: 0px 0px 3px #888; }
+
+a {
+    text-decoration: none; color: fff; }
+
+#SCL1:hover,#SCL0:hover {
+    -moz-box-shadow:inset 0 0 50px #000000;
+    -webkit-box-shadow:inset 0 0 50px #000000;
+    box-shadow:inset 0 0 50px #000000; }
+
+#SCL1,#SCL0 p:hover {
+    text-shadow: 0px 0px 3px #444;
+}
+
+#pwd-center {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+/* CrimsonTempChart */
+#chart-graph,#chart-info,#chart-select {
+    width: 600px;
+    background-color: #333;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+/* Login */
+    .inputbox {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font: normal small-caps 16px/1.4 Courier;
+    border: 1px solid #B9BDC1;
+    color: #797979;
+    -moz-box-shadow: 0 2px 4px #bbb inset;
+    -webkit-box-shadow: 0 2px 4px #BBB inset;
+    box-shadow: 0 2px 4px #BBB inset;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.inputbox:focus {
+    background-color: #E7E8E7;
+    outline: 0;
+}
+
+.login {
+    display: none;
+}
+
+/* CrimsonHome Member Area */
+
+.tabs {
+  position: relative;
+  min-height: 450px; /* This part sucks */
+  clear: both;
+  margin: 25px 10px 10px 0px;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #eee; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+}
+[type=radio]:checked ~ label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}

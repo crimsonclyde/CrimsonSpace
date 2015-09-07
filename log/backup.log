@@ -1,0 +1,5 @@
+Starting RaspberryPI backup process!
+Backing up SD card to USB HDD.
+This will take some time depending on your SD card size and read performance. Please wait...
+Start the stopped services again.
+Successful backup, previous backup files will be deleted.
